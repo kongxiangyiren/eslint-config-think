@@ -1,8 +1,6 @@
 module.exports = {
-  parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 'latest',
-    requireConfigFile: false,
     ecmaFeatures: {
       experimentalObjectRestSpread: true
     },

@@ -15,7 +15,6 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "@babel/eslint-parser": "^7.21.3",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-n": "^15.0.0",
