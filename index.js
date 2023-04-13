@@ -11,7 +11,6 @@ module.exports = {
     es2021: true,
     node: true
   },
-  plugins: ['import', 'node', 'promise', 'standard'],
   extends: 'standard',
 
   globals: {
@@ -207,14 +206,9 @@ module.exports = {
     'import/no-duplicates': 'error',
     'import/no-webpack-loader-syntax': 'error',
 
-    'node/no-deprecated-api': 'error',
-    'node/process-exit-as-throw': 'error',
+    'n/no-deprecated-api': 'error',
+    'n/process-exit-as-throw': 'error',
 
-    'promise/param-names': 'error',
-
-    'standard/array-bracket-even-spacing': ['error', 'either'],
-    'standard/computed-property-even-spacing': ['error', 'even'],
-    'standard/no-callback-literal': 'error',
-    'standard/object-curly-even-spacing': ['error', 'either']
+    'promise/param-names': 'error'
   }
 };
